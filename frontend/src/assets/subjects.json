@@ -1,4 +1,5 @@
 [
-    {"name": "Subject1"},
-    {"name": "Subject2"}
+    {"name": "General Knowledge"},
+    {"name": "Entertainment"},
+    {"name": "Science"}
 ]

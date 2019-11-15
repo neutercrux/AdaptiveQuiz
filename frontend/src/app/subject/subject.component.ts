@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SubjectService } from '../subject.service';
 import { ISubject } from '../subject';
 import { Router } from '@angular/router';
+import { CarouselModule, WavesModule } from 'angular-bootstrap-md'
 
 @Component({
   selector: 'app-subject',

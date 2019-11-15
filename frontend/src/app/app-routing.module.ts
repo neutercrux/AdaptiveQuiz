@@ -3,9 +3,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { SubjectComponent } from './subject/subject.component';
 import { QuestionComponent } from './question/question.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
-  { path: '' , redirectTo: '/subject', pathMatch:'full' },
+  { path: '' , component: LoginComponent},
+  { path: 'login' , component: LoginComponent},
+  { path: 'register' , component: RegisterComponent},
   { path: 'subject' , component: SubjectComponent },
   { path: 'subject/:name' , component: QuestionComponent },
   { path: "**", component: NotFoundComponent },

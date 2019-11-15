@@ -1,0 +1,1322 @@
+[
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the colour of unoxidized blood?",
+        "correct_answer": "Red",
+        "incorrect_answers": [
+          "Blue",
+          "Purple",
+          "Green"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
+        "correct_answer": "Uranus",
+        "incorrect_answers": [
+          "Jupiter",
+          "Venus",
+          "Neptune"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The humerus, paired radius, and ulna come together to form what joint?",
+        "correct_answer": "Elbow",
+        "incorrect_answers": [
+          "Knee",
+          "Sholder",
+          "Ankle"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+        "correct_answer": "Lift",
+        "incorrect_answers": [
+          "Thrust",
+          "Drag",
+          "Weight "
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these stars is the largest?",
+        "correct_answer": "UY Scuti",
+        "incorrect_answers": [
+          "VY Canis Majoris",
+          "Betelgeuse",
+          "RW Cephei"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What mineral has the lowest number on the Mohs scale?",
+        "correct_answer": "Talc",
+        "incorrect_answers": [
+          "Quartz",
+          "Diamond",
+          "Gypsum"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Gannymede is the largest moon of which planet?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": [
+          "Uranus",
+          "Neptune",
+          "Mars"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many degrees Fahrenheit is 100 degrees Celsius? ",
+        "correct_answer": "212",
+        "incorrect_answers": [
+          "326",
+          "100",
+          "451"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "To the nearest minute, how long does it take for light to travel from the Sun to the Earth?",
+        "correct_answer": "8 Minutes",
+        "incorrect_answers": [
+          "6 Minutes",
+          "2 Minutes",
+          "12 Minutes"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which chemical element has the lowest boiling point?",
+        "correct_answer": "Helium",
+        "incorrect_answers": [
+          "Hydrogen",
+          "Neon",
+          "Nitrogen"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which element has the atomic number of 7?",
+        "correct_answer": "Nitrogen",
+        "incorrect_answers": [
+          "Oxygen",
+          "Hydrogen",
+          "Neon"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "All the following metal elements are liquids at or near room temperature EXCEPT:",
+        "correct_answer": "Beryllium",
+        "incorrect_answers": [
+          "Gallium",
+          "Caesium",
+          "Mercury"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+        "correct_answer": "low, all",
+        "incorrect_answers": [
+          "low, some",
+          "high, all",
+          "high, some"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many officially recognized dwarf planets in the solar system are named after Polynesian deities?",
+        "correct_answer": "2",
+        "incorrect_answers": [
+          "0",
+          "1",
+          "5"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
+        "correct_answer": "Cognitive Dissonance",
+        "incorrect_answers": [
+          "Flip-Flop Syndrome",
+          "Split-Brain",
+          "Blind Sight"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The &quot;Tibia&quot; is found in which part of the body?",
+        "correct_answer": "Leg",
+        "incorrect_answers": [
+          "Arm",
+          "Hand",
+          "Head"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who developed the first successful polio vaccine in the 1950s?",
+        "correct_answer": "Jonas Salk",
+        "incorrect_answers": [
+          "John F. Enders",
+          "Thomas Weller",
+          "Frederick Robbins"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the chemical formula for ammonia?",
+        "correct_answer": "NH3",
+        "incorrect_answers": [
+          "CO2",
+          "NO3",
+          "CH4"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What polymer is used to make CDs, safety goggles and riot shields?",
+        "correct_answer": "Polycarbonate",
+        "incorrect_answers": [
+          "Rubber",
+          "Nylon",
+          "Bakelite"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The medical condition osteoporosis affects which part of the body?",
+        "correct_answer": "Bones",
+        "incorrect_answers": [
+          "Skin",
+          "Brain",
+          "Heart"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the atomic number of the element Strontium?",
+        "correct_answer": "38",
+        "incorrect_answers": [
+          "73",
+          "47",
+          "11"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is NOT a part of the structure of a typical neuron?",
+        "correct_answer": "Islets of Langerhans",
+        "incorrect_answers": [
+          "Node of Ranvier",
+          "Schwann cell",
+          "Myelin sheath"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which part of the body does glaucoma affect?",
+        "correct_answer": "Eyes",
+        "incorrect_answers": [
+          "Throat",
+          "Stomach",
+          "Blood"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What term is best associated with Sigmund Freud?",
+        "correct_answer": "Psychoanalysis",
+        "incorrect_answers": [
+          "Cognitive-Behavioral Therapy",
+          "Theory of Gravity",
+          "Dialectical Behavior Therapy"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?",
+        "correct_answer": "Ernest Rutherford",
+        "incorrect_answers": [
+          "Joseph John Thomson",
+          "Archimedes",
+          "Niels Henrik David Bohr"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "After which Danish city is the 72th element on the periodic table named?",
+        "correct_answer": "Copenhagen",
+        "incorrect_answers": [
+          "Odense",
+          "Herning",
+          "Skagen"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is a type of stretch/deep tendon reflex?",
+        "correct_answer": "Ankle jerk reflex",
+        "incorrect_answers": [
+          "Gag reflex",
+          "Pupillary light reflex",
+          "Scratch reflex"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+        "correct_answer": "Reactivity",
+        "incorrect_answers": [
+          "Health",
+          "Flammability",
+          "Radioactivity"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Myopia is the scientific term for which condition?",
+        "correct_answer": "Shortsightedness",
+        "incorrect_answers": [
+          "Farsightedness",
+          "Double Vision",
+          "Clouded Vision"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What stage of development do the majority of eukaryotic cells remain in for most of their life?",
+        "correct_answer": "Interphase",
+        "incorrect_answers": [
+          "Prophase",
+          "Stasis",
+          "Telophase"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "At what temperature does water boil?",
+        "correct_answer": "212&deg;F",
+        "incorrect_answers": [
+          "200&deg;F",
+          "181&deg;F",
+          "178&deg;F"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these elements on the Periodic Table is a Noble Gas?",
+        "correct_answer": "Neon",
+        "incorrect_answers": [
+          "Potassium",
+          "Iodine",
+          "Colbalt"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "A positron is an antiparticle of a what?",
+        "correct_answer": "Electron",
+        "incorrect_answers": [
+          "Neutron",
+          "Proton",
+          "Photon"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is radiation measured in?",
+        "correct_answer": "Gray ",
+        "incorrect_answers": [
+          "Watt",
+          "Decibel",
+          "Kelvin"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the unit of electrical capacitance?",
+        "correct_answer": "Farad",
+        "incorrect_answers": [
+          "Gauss",
+          "Henry",
+          "Watt"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which desert is the only desert in the world where the &quot;Saguaro&quot; cactus grows indigenously?",
+        "correct_answer": "The Sonoran Desert",
+        "incorrect_answers": [
+          "The Gobi Desert",
+          "The Yuma Desert",
+          "The Arabian Desert"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In Psychology, which need appears highest in the &quot;Maslow&#039;s hierarchy of needs&quot; pyramid?",
+        "correct_answer": "Esteem",
+        "incorrect_answers": [
+          "Love",
+          "Safety",
+          "Physiological"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What are human nails made of?",
+        "correct_answer": "Keratin",
+        "incorrect_answers": [
+          "Bone",
+          "Chitin",
+          "Calcium"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the largest living organism currently known to man?",
+        "correct_answer": "Honey Fungus",
+        "incorrect_answers": [
+          "Blue Whale",
+          "Redwood Tree",
+          "The Coral Reef"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "On which mission did the Space Shuttle Columbia break up upon re-entry?",
+        "correct_answer": "STS-107",
+        "incorrect_answers": [
+          "STS-51-L",
+          "STS-61-C",
+          "STS-109"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What part of the brain takes its name from the Greek for seahorse?",
+        "correct_answer": "Hippocampus",
+        "incorrect_answers": [
+          "Cerebellum",
+          "Thalamus",
+          "Amygdala"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which planet did the &quot;Viking 1&quot; spacecraft send surface images of, starting in 1976?",
+        "correct_answer": "Mars",
+        "incorrect_answers": [
+          "Saturn",
+          "Jupiter",
+          "Venus"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Approximately how long is a year on Uranus?",
+        "correct_answer": "84 Earth years",
+        "incorrect_answers": [
+          "47 Earth years",
+          "62 Earth years",
+          "109 Earth years"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which chemical element was originally known as Alabamine?",
+        "correct_answer": "Astatine",
+        "incorrect_answers": [
+          "Selenium",
+          "Antimony",
+          "Molybdenum"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following men does not have a chemical element named after him?",
+        "correct_answer": "Sir Isaac Newton",
+        "incorrect_answers": [
+          "Albert Einstein",
+          "Niels Bohr",
+          "Enrico Fermi"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the scientific term for &#039;taste&#039;?",
+        "correct_answer": "Gustatory Perception",
+        "incorrect_answers": [
+          "Olfaction",
+          "Somatosensation",
+          "Auditory Perception"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "On the periodic table of elements, what is the symbol for Tin?",
+        "correct_answer": "Sn",
+        "incorrect_answers": [
+          "Ti",
+          "Ni",
+          "Na"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In human biology, a circadium rhythm relates to a period of roughly how many hours?",
+        "correct_answer": "24",
+        "incorrect_answers": [
+          "8",
+          "16",
+          "32"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The medial meniscus forms which part of what joint in the human body?",
+        "correct_answer": "Knee",
+        "incorrect_answers": [
+          "Elbow",
+          "Ankle",
+          "Shoulder"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "An organism described as &quot;heliotropic&quot; has a tendancy to move towards which of these things?",
+        "correct_answer": "Light",
+        "incorrect_answers": [
+          "Water",
+          "Trees",
+          "Pollen"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When Gmail first launched, how much storage did it provide for your email?",
+        "correct_answer": "1GB",
+        "incorrect_answers": [
+          "512MB",
+          "5GB",
+          "Unlimited"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What does GHz stand for?",
+        "correct_answer": "Gigahertz",
+        "incorrect_answers": [
+          "Gigahotz",
+          "Gigahetz",
+          "Gigahatz"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
+        "correct_answer": "Final",
+        "incorrect_answers": [
+          "Static",
+          "Private",
+          "Public"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
+        "correct_answer": "Binary",
+        "incorrect_answers": [
+          "JavaScript",
+          "C++",
+          "Python"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:",
+        "correct_answer": "HD Graphics 500",
+        "incorrect_answers": [
+          "HD Graphics 700 ",
+          "HD Graphics 600",
+          "HD Graphics 7000"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In web design, what does CSS stand for?",
+        "correct_answer": "Cascading Style Sheet",
+        "incorrect_answers": [
+          "Counter Strike: Source",
+          "Corrective Style Sheet",
+          "Computer Style Sheet"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the code name for the mobile operating system Android 7.0?",
+        "correct_answer": "Nougat",
+        "incorrect_answers": [
+          "Ice Cream Sandwich",
+          "Jelly Bean",
+          "Marshmallow"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "On Twitter, what is the character limit for a Tweet?",
+        "correct_answer": "140",
+        "incorrect_answers": [
+          "120",
+          "160",
+          "100"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "This mobile OS held the largest market share in 2012.",
+        "correct_answer": "iOS",
+        "incorrect_answers": [
+          "Android",
+          "BlackBerry",
+          "Symbian"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The C programming language was created by this American computer scientist. ",
+        "correct_answer": "Dennis Ritchie",
+        "incorrect_answers": [
+          "Tim Berners Lee",
+          "al-Khwārizmī",
+          "Willis Ware"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which internet company began life as an online bookstore called &#039;Cadabra&#039;?",
+        "correct_answer": "Amazon",
+        "incorrect_answers": [
+          "eBay",
+          "Overstock",
+          "Shopify"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Whistler was the codename of this Microsoft Operating System.",
+        "correct_answer": "Windows XP",
+        "incorrect_answers": [
+          "Windows 2000",
+          "Windows 7",
+          "Windows 95"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+        "correct_answer": "Year",
+        "incorrect_answers": [
+          "Four Years",
+          "Two Years",
+          "Eight Years"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does AD stand for in relation to Windows Operating Systems? ",
+        "correct_answer": "Active Directory",
+        "incorrect_answers": [
+          "Alternative Drive",
+          "Automated Database",
+          "Active Department"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When was the programming language &quot;C#&quot; released?",
+        "correct_answer": "2000",
+        "incorrect_answers": [
+          "1998",
+          "1999",
+          "2001"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What five letter word is the motto of the IBM Computer company?",
+        "correct_answer": "Think",
+        "incorrect_answers": [
+          "Click",
+          "Logic",
+          "Pixel"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "On which computer hardware device is the BIOS chip located?",
+        "correct_answer": "Motherboard",
+        "incorrect_answers": [
+          "Hard Disk Drive",
+          "Central Processing Unit",
+          "Graphics Processing Unit"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+        "correct_answer": "C#",
+        "incorrect_answers": [
+          "Java",
+          "C++",
+          "Objective-C"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "All of the following programs are classified as raster graphics editors EXCEPT:",
+        "correct_answer": "Inkscape",
+        "incorrect_answers": [
+          "Paint.NET",
+          "GIMP",
+          "Adobe Photoshop"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The computer OEM manufacturer Clevo, known for its Sager notebook line, is based in which country?",
+        "correct_answer": "Taiwan",
+        "incorrect_answers": [
+          "United States",
+          "Germany",
+          "China (People&#039;s Republic of)"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Nvidia&#039;s headquarters are based in which Silicon Valley city?",
+        "correct_answer": "Santa Clara",
+        "incorrect_answers": [
+          "Palo Alto",
+          "Cupertino",
+          "Mountain View"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+        "correct_answer": "The Onion Router",
+        "incorrect_answers": [
+          "The Only Router",
+          "The Orange Router",
+          "The Ominous Router"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the first commerically available computer processor?",
+        "correct_answer": "Intel 4004",
+        "incorrect_answers": [
+          "Intel 486SX",
+          "TMS 1000",
+          "AMD AM386"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the name given to Android 4.3?",
+        "correct_answer": "Jelly Bean",
+        "incorrect_answers": [
+          "Lollipop",
+          "Nutella",
+          "Froyo"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these is the name for the failed key escrow device introduced by the National Security Agency in 1993?",
+        "correct_answer": "Clipper Chip",
+        "incorrect_answers": [
+          "Enigma Machine",
+          "Skipjack",
+          "Nautilus"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "On which day did the World Wide Web go online?",
+        "correct_answer": "December 20, 1990",
+        "incorrect_answers": [
+          "December 17, 1996",
+          "November 12, 1990",
+          "November 24, 1995"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "While Apple was formed in California, in which western state was Microsoft founded?",
+        "correct_answer": "New Mexico",
+        "incorrect_answers": [
+          "Washington",
+          "Colorado",
+          "Arizona"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does the acronym CDN stand for in terms of networking?",
+        "correct_answer": "Content Delivery Network",
+        "incorrect_answers": [
+          "Content Distribution Network",
+          "Computational Data Network",
+          "Compressed Data Network"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Generally, which component of a computer draws the most power?",
+        "correct_answer": "Video Card",
+        "incorrect_answers": [
+          "Hard Drive",
+          "Processor",
+          "Power Supply"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many cores does the Intel i7-6950X have?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+          "12",
+          "8",
+          "4"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which one of these is not an official development name for a Ubuntu release?",
+        "correct_answer": "Mystic Mansion",
+        "incorrect_answers": [
+          "Trusty Tahr",
+          "Utopic Unicorn",
+          "Wily Werewolf"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the server hosting industry IaaS stands for...",
+        "correct_answer": "Infrastructure as a Service",
+        "incorrect_answers": [
+          "Internet as a Service",
+          "Internet and a Server",
+          "Infrastructure as a Server"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+          "C#",
+          "Python",
+          "PHP"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the default theme that is installed with Windows XP?",
+        "correct_answer": "Luna",
+        "incorrect_answers": [
+          "Neptune",
+          "Whistler",
+          "Bliss"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the programming language &quot;Python&quot;, which of these statements would display the string &quot;Hello World&quot; correctly?",
+        "correct_answer": "print(&quot;Hello World&quot;)",
+        "incorrect_answers": [
+          "console.log(&quot;Hello World&quot;)",
+          "echo &quot;Hello World&quot;",
+          "printf(&quot;Hello World&quot;)"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+        "correct_answer": "&lt;marquee&gt;&lt;/marquee&gt;",
+        "incorrect_answers": [
+          "&lt;scroll&gt;&lt;/scroll&gt;",
+          "&lt;move&gt;&lt;/move&gt;",
+          "&lt;slide&gt;&lt;/slide&gt;"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In CSS, which of these values CANNOT be used with the &quot;position&quot; property?",
+        "correct_answer": "center",
+        "incorrect_answers": [
+          "static",
+          "absolute",
+          "relative"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+        "correct_answer": "Heat Sink",
+        "incorrect_answers": [
+          "CPU Vent",
+          "Temperature Decipator",
+          "Heat Vent"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In programming, the ternary operator is mostly defined with what symbol(s)?",
+        "correct_answer": "?:",
+        "incorrect_answers": [
+          "??",
+          "if then",
+          "?"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these programming languages is a low-level language?",
+        "correct_answer": "Assembly",
+        "incorrect_answers": [
+          "Python",
+          "C#",
+          "Pascal"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In computing terms, typically what does CLI stand for?",
+        "correct_answer": "Command Line Interface",
+        "incorrect_answers": [
+          "Common Language Input",
+          "Control Line Interface",
+          "Common Language Interface"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How fast is USB 3.1 Gen 2 theoretically?",
+        "correct_answer": "10 Gb/s",
+        "incorrect_answers": [
+          "5 Gb/s",
+          "8 Gb/s",
+          "1 Gb/s"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does &quot;LCD&quot; stand for?",
+        "correct_answer": "Liquid Crystal Display",
+        "incorrect_answers": [
+          "Language Control Design",
+          "Last Common Difference",
+          "Long Continuous Design"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which operating system was released first?",
+        "correct_answer": "Mac OS",
+        "incorrect_answers": [
+          "Windows",
+          "Linux",
+          "OS/2"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
+        "correct_answer": "FM-7",
+        "incorrect_answers": [
+          "PC-9801",
+          "Xmillennium ",
+          "MSX"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": ".rs is the top-level domain for what country?",
+        "correct_answer": "Serbia",
+        "incorrect_answers": [
+          "Romania",
+          "Russia",
+          "Rwanda"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": ".at is the top-level domain for what country?",
+        "correct_answer": "Austria",
+        "incorrect_answers": [
+          "Argentina",
+          "Australia",
+          "Angola"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is known as &quot;the brain&quot; of the Computer?",
+        "correct_answer": "Central Processing Unit",
+        "incorrect_answers": [
+          "Motherboard",
+          "Graphics Processing Unit",
+          "Keyboard"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does the term GPU stand for?",
+        "correct_answer": "Graphics Processing Unit",
+        "incorrect_answers": [
+          "Gaming Processor Unit",
+          "Graphite Producing Unit",
+          "Graphical Proprietary Unit"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+        "correct_answer": "Motorola 68000",
+        "incorrect_answers": [
+          "Zilog Z80",
+          "Yamaha YM2612",
+          "Intel 8088"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the first Android version specifically optimized for tablets?",
+        "correct_answer": "Honeycomb",
+        "incorrect_answers": [
+          "Eclair",
+          "Froyo",
+          "Marshmellow"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these people was NOT a founder of Apple Inc?",
+        "correct_answer": "Jonathan Ive",
+        "incorrect_answers": [
+          "Steve Jobs",
+          "Ronald Wayne",
+          "Steve Wozniak"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When did the online streaming service &quot;Mixer&quot; launch?",
+        "correct_answer": "2016",
+        "incorrect_answers": [
+          "2013",
+          "2009",
+          "2011"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+        "correct_answer": "Non-impact printer",
+        "incorrect_answers": [
+          "Impact printer",
+          "Daisywheel printer",
+          "Dot matrix printer"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does the term MIME stand for, in regards to computing?",
+        "correct_answer": "Multipurpose Internet Mail Extensions",
+        "incorrect_answers": [
+          "Mail Internet Mail Exchange",
+          "Multipurpose Interleave Mail Exchange",
+          "Mail Interleave Method Exchange"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which programming language was developed by Sun Microsystems in 1995?",
+        "correct_answer": "Java",
+        "incorrect_answers": [
+          "Python",
+          "Solaris OS",
+          "C++"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "The name of technology company HP stands for what?",
+        "correct_answer": "Hewlett-Packard",
+        "incorrect_answers": [
+          "Howard Packmann",
+          "Husker-Pollosk",
+          "Hellman-Pohl"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Approximately how many Apple I personal computers were created?",
+        "correct_answer": "200",
+        "incorrect_answers": [
+          "100",
+          "500",
+          "1000"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In programming, what do you call functions with the same name but different implementations?",
+        "correct_answer": "Overloading",
+        "incorrect_answers": [
+          "Overriding",
+          "Abstracting",
+          "Inheriting"
+        ]
+      },
+      {
+        "category": "Science",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does RAID stand for?",
+        "correct_answer": "Redundant Array of Independent Disks",
+        "incorrect_answers": [
+          "Rapid Access for Indexed Devices",
+          "Range of Applications with Identical Designs",
+          "Randomized Abstract Identification Description"
+        ]
+      }
+    ]
