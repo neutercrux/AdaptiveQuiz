@@ -8,14 +8,14 @@
     "incorrect_answers": [
       "Royal Oak",
       "White Hart",
-      "King&#039;s Head"
+      "King's Head"
     ]
   },
   {
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What is the world&#039;s most expensive spice by weight?",
+    "question": "What is the world's most expensive spice by weight?",
     "correct_answer": "Saffron",
     "incorrect_answers": [
       "Cinnamon",
@@ -27,7 +27,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+    "question": "This field is sometimes known as'The Dismal Science.'",
     "correct_answer": "Economics",
     "incorrect_answers": [
       "Philosophy",
@@ -63,7 +63,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What name represents the letter &quot;M&quot; in the NATO phonetic alphabet?",
+    "question": "What name represents the letter 'M' in the NATO phonetic alphabet?",
     "correct_answer": "Mike",
     "incorrect_answers": [
       "Matthew",
@@ -219,7 +219,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which of these is the name of a Japanese system of alternative medicine, literally meaning &quot;finger pressure&quot;?",
+    "question": "Which of these is the name of a Japanese system of alternative medicine, literally meaning 'finger pressure'?",
     "correct_answer": "Shiatsu",
     "incorrect_answers": [
       "Ukiyo",
@@ -243,7 +243,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What is the German word for &quot;spoon&quot;?",
+    "question": "What is the German word for 'spoon'?",
     "correct_answer": "L&ouml;ffel",
     "incorrect_answers": [
       "Gabel",
@@ -255,7 +255,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What is the Italian word for &quot;tomato&quot;?",
+    "question": "What is the Italian word for 'tomato'?",
     "correct_answer": "Pomodoro",
     "incorrect_answers": [
       "Aglio",
@@ -267,7 +267,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What is the name of the popular animatronic singing fish prop, singing such hits such as &quot;Don&#039;t Worry, Be Happy&quot;?",
+    "question": "What is the name of the popular animatronic singing fish prop, singing such hits such as 'Don't Worry, Be Happy'?",
     "correct_answer": "Big Mouth Billy Bass",
     "incorrect_answers": [
       "Big Billy Bass",
@@ -279,7 +279,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "The term &quot;scientist&quot; was coined in which year?",
+    "question": "The term 'scientist' was coined in which year?",
     "correct_answer": "1833",
     "incorrect_answers": [
       "1933",
@@ -303,7 +303,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "According to the United States&#039; CDC, one in how many Americans die annually due to smoking?",
+    "question": "According to the United States' CDC, one in how many Americans die annually due to smoking?",
     "correct_answer": "Five",
     "incorrect_answers": [
       "Twenty",
@@ -375,7 +375,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "In what year was McDonald&#039;s founded?",
+    "question": "In what year was McDonald's founded?",
     "correct_answer": "1955",
     "incorrect_answers": [
       "1964",
@@ -387,7 +387,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which of the General Mills Corporation&#039;s monster cereals was the last to be released in the 1970&#039;s?",
+    "question": "Which of the General Mills Corporation's monster cereals was the last to be released in the 1970's?",
     "correct_answer": "Fruit Brute",
     "incorrect_answers": [
       "Count Chocula",
@@ -411,31 +411,31 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What was Mountain Dew&#039;s original slogan?",
-    "correct_answer": "Yahoo! Mountain Dew... It&#039;ll tickle your innards!",
+    "question": "What was Mountain Dew's original slogan?",
+    "correct_answer": "Yahoo! Mountain Dew... It'll tickle your innards!",
     "incorrect_answers": [
       "Give Me A Dew",
       "Do The Dew",
-      "Get&#039; that barefoot feelin&#039; drinkin&#039; Mountain Dew"
+      "Get' that barefoot feelin' drinkin' Mountain Dew"
     ]
   },
   {
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a &quot;Guardians of the Galaxy&quot; themed ride?",
+    "question": "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a 'Guardians of the Galaxy' themed ride?",
     "correct_answer": "Twilight Zone Tower of Terror",
     "incorrect_answers": [
       "The Haunted Mansion",
       "Pirates of the Caribbean",
-      "Peter Pan&#039;s Flight"
+      "Peter Pan's Flight"
     ]
   },
   {
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "What is the Portuguese word for &quot;Brazil&quot;?",
+    "question": "What is the Portuguese word for 'Brazil'?",
     "correct_answer": "Brasil",
     "incorrect_answers": [
       "Brazil",
@@ -471,7 +471,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "When did the website &quot;Facebook&quot; launch?",
+    "question": "When did the website 'Facebook' launch?",
     "correct_answer": "2004",
     "incorrect_answers": [
       "2005",
@@ -519,7 +519,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which slogan did the fast food company, McDonald&#039;s, use before their &quot;I&#039;m Lovin&#039; It&quot; slogan?",
+    "question": "Which slogan did the fast food company, McDonald's, use before their 'I'm Lovin' It' slogan?",
     "correct_answer": "We Love to See You Smile",
     "incorrect_answers": [
       "Why Pay More!?",
@@ -532,10 +532,10 @@
     "type": "multiple",
     "difficulty": "medium",
     "question": "What is real haggis made of?",
-    "correct_answer": "Sheep&#039;s Heart, Liver and Lungs",
+    "correct_answer": "Sheep's Heart, Liver and Lungs",
     "incorrect_answers": [
-      "Sheep&#039;s Heart, Kidneys and Lungs",
-      "Sheep&#039;s Liver, Kidneys and Eyes",
+      "Sheep's Heart, Kidneys and Lungs",
+      "Sheep's Liver, Kidneys and Eyes",
       "Whole Sheep"
     ]
   },
@@ -543,7 +543,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "The website &quot;Shut Up &amp; Sit Down&quot; reviews which form of media?",
+    "question": "The website 'Shut Up & Sit Down' reviews which form of media?",
     "correct_answer": "Board Games",
     "incorrect_answers": [
       "Television Shows",
@@ -555,7 +555,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "medium",
-    "question": "Which of these words means &quot;idle spectator&quot;?",
+    "question": "Which of these words means 'idle spectator'?",
     "correct_answer": "Gongoozler",
     "incorrect_answers": [
       "Gossypiboma",
@@ -615,7 +615,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Where is the train station &quot;Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch&quot;?",
+    "question": "Where is the train station 'Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch'?",
     "correct_answer": "Wales",
     "incorrect_answers": [
       "Moldova",
@@ -668,7 +668,7 @@
     "incorrect_answers": [
       "Transformers",
       "Care Bears",
-      "Rubik&rsquo;s Cube"
+      "Rubiks Cube"
     ]
   },
   {
@@ -688,7 +688,7 @@
     "type": "multiple",
     "difficulty": "easy",
     "question": "How would one say goodbye in Spanish?",
-    "correct_answer": "Adi&oacute;s",
+    "correct_answer": "Adios",
     "incorrect_answers": [
       " Hola",
       "Au Revoir",
@@ -735,7 +735,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What word represents the letter &#039;T&#039; in the NATO phonetic alphabet?",
+    "question": "What word represents the letter 'T' in the NATO phonetic alphabet?",
     "correct_answer": "Tango",
     "incorrect_answers": [
       "Target",
@@ -771,7 +771,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What is &quot;dabbing&quot;?",
+    "question": "What is 'dabbing'?",
     "correct_answer": "A dance",
     "incorrect_answers": [
       "A medical procedure",
@@ -819,7 +819,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What type of animal was Harambe, who was shot after a child fell into it&#039;s enclosure at the Cincinnati Zoo?",
+    "question": "What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?",
     "correct_answer": "Gorilla",
     "incorrect_answers": [
       "Tiger",
@@ -867,7 +867,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What is on display in the Madame Tussaud&#039;s museum in London?",
+    "question": "What is on display in the Madame Tussaud's museum in London?",
     "correct_answer": "Wax sculptures",
     "incorrect_answers": [
       "Designer clothing",
@@ -891,7 +891,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What is the Spanish word for &quot;donkey&quot;?",
+    "question": "What is the Spanish word for 'donkey'?",
     "correct_answer": "Burro",
     "incorrect_answers": [
       "Caballo",
@@ -903,7 +903,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What is the French word for &quot;hat&quot;?",
+    "question": "What is the French word for 'hat'?",
     "correct_answer": "Chapeau",
     "incorrect_answers": [
       "Bonnet",
@@ -975,7 +975,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "According to Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains, however improbable, must be the...&quot;",
+    "question": "According to Sherlock Holmes, 'If you eliminate the impossible, whatever remains, however improbable, must be the...'",
     "correct_answer": "Truth",
     "incorrect_answers": [
       "Answer",
@@ -992,14 +992,14 @@
     "incorrect_answers": [
       "Pupcia",
       "Polszka",
-      "P&oacute;land"
+      "Poland"
     ]
   },
   {
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+    "question": "The New York Times slogan is,'All the News That's Fit to&hellip;'",
     "correct_answer": "Print",
     "incorrect_answers": [
       "Digest",
@@ -1011,7 +1011,7 @@
     "category": "General Knowledge",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "What color is the &quot;Ex&quot; in FedEx Ground?",
+    "question": "What color is the 'Ex' in FedEx Ground?",
     "correct_answer": "Green",
     "incorrect_answers": [
       "Red",
@@ -1086,7 +1086,7 @@
     "question": "What is Tasmania?",
     "correct_answer": "An Australian State",
     "incorrect_answers": [
-      "A flavor of Ben and Jerry&#039;s ice-cream",
+      "A flavor of Ben and Jerry's ice-cream",
       "A Psychological Disorder",
       "The Name of a Warner Brothers Cartoon Character"
     ]

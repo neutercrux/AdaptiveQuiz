@@ -5,6 +5,7 @@ import { IQuestion} from '../question';
 import { from } from 'rxjs';
 import {Router} from "@angular/router";
 import { NgForm } from '@angular/forms';
+import { MDBBtn, MDBIcon } from "mdbreact";
 
 
 @Component({
@@ -17,27 +18,42 @@ export class QuestionComponent implements OnInit {
   public questions = [];
   public errorMsg;
   response:any;
-  constructor(private _questionService: QuestionService, private _route: ActivatedRoute) { }
+  available = true;
+  constructor(private _questionService: QuestionService, private _route: ActivatedRoute,private router: Router) { }
 
   ngOnInit() {
 
     let name = this._route.snapshot.paramMap.get('name');
 
     this._questionService.getQuestions(name)
-      .subscribe(data => this.questions = data,
+      .subscribe(data => {
+                  this.questions = data;
+                },
                  error => this.errorMsg = error);
     console.log(this.questions);
   }
+  clicked : any
+  getNext(){
 
-  getNext(form: NgForm){
-
-    let selected = form.value['exampleRadios'];
-    console.log(form.value['exampleRadios']);
+    let selected = this.clicked;
+    console.log(this.clicked);
     let ques = this.questions[0].question;
     this._questionService.getNextQues(ques,selected).subscribe(data =>{
       this.response = JSON.parse(JSON.stringify(data));
-      console.log(this.response);
+      // console.log(this.response.body);
+      if(this.response.status==200){
+        this.questions = Array(this.response.body);
+        this.clicked = false;
+      }
+      else{
+        console.log(this.response.body);
+        this.available = false;
+      }
     })
+  }
+
+  getResults(){
+    this.router.navigate(['/results'])
   }
 }
 

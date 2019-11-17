@@ -1,26 +1,30 @@
-<div style="margin-top: 10%;" class="row">
+<div style="margin-top: 10%;" class="row" *ngIf="available else result">
     <div class="col-6 offset-md-3">
         <div class="card border-dark">
-            <form #myForm="ngForm" (submit)="getNext(myForm)">
+            <form>
                 <div class="card-header bg-dark text-white">
                     {{questions[0].question}}
                 </div>
                 <div class="card-body">
                     <div *ngFor="let ans of questions[0].incorrect_answers" class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value={{ans}} ngModel required>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" [value]="ans" [(ngModel)]='clicked'>
                         <label class="form-check-label" for="exampleRadios2">
                             {{ans}}
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value={{questions[0].correct_answer}} ngModel required>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" [value]="questions[0].correct_answer" [(ngModel)]='clicked'>
                         <label class="form-check-label" for="exampleRadios2">
                             {{questions[0].correct_answer}}
                         </label>
                     </div>
-                    <button style="margin-top: 15px;" type="submit" class="btn btn-primary">Next</button>
+                    <button style="margin-top: 15px;" type="submit" class="btn btn-primary" (click)="getNext()">Next</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+<ng-template #result>
+    <button style="margin-top: 20%;margin-left: 40%;" type="button" class="btn btn-info" (click)="getResults()">Get Results</button>
+</ng-template>

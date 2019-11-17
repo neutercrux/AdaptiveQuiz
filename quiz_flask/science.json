@@ -183,7 +183,7 @@
         "category": "Science",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "The &quot;Tibia&quot; is found in which part of the body?",
+        "question": "The 'Tibia' is found in which part of the body?",
         "correct_answer": "Leg",
         "incorrect_answers": [
           "Arm",
@@ -364,11 +364,11 @@
         "type": "multiple",
         "difficulty": "medium",
         "question": "At what temperature does water boil?",
-        "correct_answer": "212&deg;F",
+        "correct_answer": "212 degree F",
         "incorrect_answers": [
-          "200&deg;F",
-          "181&deg;F",
-          "178&deg;F"
+          "200 degree F",
+          "181 degree F",
+          "178 degree F"
         ]
       },
       {
@@ -423,7 +423,7 @@
         "category": "Science",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which desert is the only desert in the world where the &quot;Saguaro&quot; cactus grows indigenously?",
+        "question": "Which desert is the only desert in the world where the 'Saguaro' cactus grows indigenously?",
         "correct_answer": "The Sonoran Desert",
         "incorrect_answers": [
           "The Gobi Desert",
@@ -435,7 +435,7 @@
         "category": "Science",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "In Psychology, which need appears highest in the &quot;Maslow&#039;s hierarchy of needs&quot; pyramid?",
+        "question": "In Psychology, which need appears highest in the Maslow's hierarchy of needs pyramid?",
         "correct_answer": "Esteem",
         "incorrect_answers": [
           "Love",
@@ -495,7 +495,7 @@
         "category": "Science",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which planet did the &quot;Viking 1&quot; spacecraft send surface images of, starting in 1976?",
+        "question": "Which planet did the 'Viking 1' spacecraft send surface images of, starting in 1976?",
         "correct_answer": "Mars",
         "incorrect_answers": [
           "Saturn",
@@ -543,7 +543,7 @@
         "category": "Science",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the scientific term for &#039;taste&#039;?",
+        "question": "What is the scientific term for 'taste'?",
         "correct_answer": "Gustatory Perception",
         "incorrect_answers": [
           "Olfaction",
@@ -591,7 +591,7 @@
         "category": "Science",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "An organism described as &quot;heliotropic&quot; has a tendancy to move towards which of these things?",
+        "question": "An organism described as 'heliotropic' has a tendancy to move towards which of these things?",
         "correct_answer": "Light",
         "incorrect_answers": [
           "Water",

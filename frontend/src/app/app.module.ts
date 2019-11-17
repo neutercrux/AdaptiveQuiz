@@ -12,6 +12,7 @@ import { AngularMaterialModule } from './angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
+import { ResultsComponent } from './results/results.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { RegisterComponent } from './register/register.component';
     RoutingComponents,
     LoginComponent,
     RegisterComponent,
+    ResultsComponent,
   ],
   imports: [
     BrowserModule,
