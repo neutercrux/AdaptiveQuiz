@@ -19,6 +19,7 @@ export class QuestionComponent implements OnInit {
   public errorMsg;
   response:any;
   available = true;
+  uname : any;
   constructor(private _questionService: QuestionService, private _route: ActivatedRoute,private router: Router) { }
 
   ngOnInit() {
@@ -40,7 +41,7 @@ export class QuestionComponent implements OnInit {
     let ques = this.questions[0].question;
     this._questionService.getNextQues(ques,selected).subscribe(data =>{
       this.response = JSON.parse(JSON.stringify(data));
-      // console.log(this.response.body);
+      console.log(this.response);
       if(this.response.status==200){
         this.questions = Array(this.response.body);
         this.clicked = false;
@@ -48,12 +49,15 @@ export class QuestionComponent implements OnInit {
       else{
         console.log(this.response.body);
         this.available = false;
+        this.uname = this.response.body.username;
+        console.log(this.uname);
       }
     })
   }
 
-  getResults(){
-    this.router.navigate(['/results'])
+  getResults(uname){
+    console.log('---res---',uname)
+    this.router.navigate(['/results/',uname])
   }
 }
 

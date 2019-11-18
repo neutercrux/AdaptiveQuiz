@@ -1,11 +1,13 @@
 from flask import Flask,jsonify,request,session
 import pymongo
-from pprint import pprint
 import json
 from bson import json_util
 from bson import ObjectId
 from flask_cors import CORS, cross_origin
-import chart 
+import plotly.graph_objects as go
+import numpy as np         
+import random
+import math                
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'super secret'
@@ -34,6 +36,7 @@ def login():
         sess['H'] = 10
         sess['D'] = 10
         sess['R'] = 0
+        sess['pre'] = 0
         print(data)
         cursor = table.find(data)
         res = convertCursor(cursor)
@@ -94,6 +97,7 @@ def questions(subject):
     easy = data.find({'difficulty' : "easy" ,'category':subject},{'_id': False}).limit(1)
     json_data = convertCursor(easy)
     sess['question'] = json_data
+    sess['difficulty'] = ['easy']
     # medium = data.find({ 'difficulty' : "medium",'category':subject},{'_id': False}).limit(2)
     # hard = data.find({ 'difficulty' : "hard",'category':subject },{'_id': False}).limit(1)
     # json_data += convertCursor(medium)
@@ -103,29 +107,49 @@ def questions(subject):
 
 def nextDifficulty(x):
     global sess
-    if x==1:
-        d = sess['D']
-        h = sess['H']
+    d = sess['D']
+    pre = sess['pre']
+    h = sess['H']
+    l = sess['total']
+    l = l+1
+    sess['total'] = l
+    if x==1: #correct answer
         r = sess['R']
         r = r+1
         sess['R'] = r
-        l = sess['total']
-        d = d + (2/l)
+        d = d + (pre*10/l)
+        if(d>=100):
+            d = 99
         sess['D'] = d
         sess['H'] = int(h+d)
-        l = l+1 
-        sess['total'] = l
-        return "medium"
     else:
-        d = sess['D']
-        h = sess['H']
-        l = sess['total']
-        d = d - (2/l)
+        d = d - (pre*10/l)
+        if(d<0):
+            d = 0
         sess['D'] = d
         sess['H'] = int(h+d)
-        l = l+1 
-        sess['total'] = l
-        return "easy"
+    return getDifficulty(d)
+
+def getDifficulty(x):
+    global sess
+    print("x is ",x)
+    rng = int(random.uniform(0,100))
+    print("rng is ",rng)
+    x = int(x/10)*10
+    if(x<50):
+        if(rng<(100-(2*x))):
+            sess['pre'] = 3
+            return "easy"
+        else:
+            sess['pre'] = 6
+            return "medium"
+    else:
+        if(rng<(100-(2*(x-50)))):
+            sess['pre'] = 6
+            return "medium"
+        else:
+            sess['pre'] = 9
+            return "hard"
 
 @app.route('/next',methods=['GET','POST'])
 def next():
@@ -149,6 +173,9 @@ def next():
         else:
             diff = nextDifficulty(0)
         print('-----got difficulty as----',diff)
+        prevDiff = sess['difficulty']
+        prevDiff.append(diff)
+        sess['difficulty'] = prevDiff
         ques = table.find({'difficulty':diff,'category':subject},{'_id':False})
         ques = convertCursor(ques)
         for q in ques:
@@ -160,14 +187,98 @@ def next():
         print('Found ques', resp)
         return jsonify(resp),200
     else:
+        print('---here-----')
         table = mongo_db['user']
         correct = sess['R']
         incorr = count-correct
         id = sess['id']
         print(correct,incorr,uname)
         x = table.update_one({'_id':ObjectId(id),'username':uname},{"$set":{'total':count,'correct':correct,'incorrect':incorr}})
-        resp = {'message':'test over'}
-        return jsonify(resp),204
+        resp = {'username':uname}
+        return jsonify(resp),202
+
+@app.route('/results/<username>')
+def results(username):
+    global sess
+    user = mongo_db['user']
+    data = user.find({},{'_id': False})
+    data = convertCursor(data)
+    bar1 = {}
+    correct_y = []
+    incorrect_y = []
+    others_correct = 0
+    others_incorrect = 0
+    count = 0
+    for i in data:
+        if i['username']==username:
+            bar1 = i
+            correct_y.append(i['correct'])
+            incorrect_y.append(i['incorrect'])
+        else:
+            count += 1
+            others_correct += i['correct']
+            others_incorrect += i['incorrect']
+    others_correct /= count
+    others_incorrect /= count
+    correct_y.append(others_correct)
+    incorrect_y.append(others_incorrect)
+    print(correct_y)
+    print(incorrect_y)
+    users=['You', 'Others']
+
+    fig = go.Figure(data=[
+        go.Bar(name='Correct', x=users, y=correct_y,opacity=0.8),
+        go.Bar(name='Incorrect', x=users, y=incorrect_y,opacity=0.8)
+        ])
+    # Change the bar mode
+    fig.update_layout(barmode='stack',
+                      width=500,
+                      height=500,
+                      xaxis=dict(showgrid=False, zeroline=False),
+                      yaxis=go.layout.YAxis(
+                        title_text="Questions",
+                        tickvals=[2,4,6,8,10,12,14,16,18,20],
+                        tickmode="array",
+                        titlefont=dict(size=20),
+                        showgrid = False,
+                        zeroline = False,
+    ))
+    fig.write_image("../frontend/src/assets/fig1.png")
+
+    x = np.arange(int(sess['total']))
+    diff = sess['difficulty']
+    y = []
+
+    for i in diff:
+        if i=='easy':
+            y.append(1)
+        elif i=='medium':
+            y.append(2)
+        else:
+            y.append(3)
+    
+    layout = go.Layout(
+    xaxis=dict(showgrid=False, zeroline=False),
+    yaxis = go.layout.YAxis(
+        tickmode = 'array',
+        tickvals = [1, 2, 3],
+        ticktext = ['Easy', 'Medium', 'Hard'],
+        showgrid = False,
+        zeroline = False
+        )
+    )
+    fig1 = go.Figure(data=go.Scatter(x=x, y=y,marker_color='rgba(255, 0, 0, .7)'),layout=layout,)
+    fig1.update_layout(xaxis_title='Questions',
+                   yaxis_title='Difficulty level')
+    fig1.write_image("../frontend/src/assets/fig2.png")
+    z = 0
+    while(z<1000000):
+        z += 1
+    resp = [
+        {'src' : 'assets/fig1.png'},
+        {'src' : 'assets/fig2.png'}
+    ]
+    return jsonify(resp),200
 
 if __name__ == "__main__":
     app.debug = True

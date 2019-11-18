@@ -1,1 +1,12 @@
-<p>results works!</p>
+
+
+<div *ngIf="show else loading">
+    <div *ngFor="let graph of graphs">
+            <img [src]="graph.src">
+    </div>
+</div>
+
+<ng-template #loading>
+    <img src = "../../assets/loading.gif">
+    <img src = "../../assets/loading.gif">
+</ng-template>
