@@ -1,0 +1,11 @@
+div.card {
+    margin-top: 5%;
+}
+
+img {
+    max-height: 350px;
+}
+
+html,body{height:100%;margin:0;padding:0;}
+body { background-image: linear-gradient(to bottom right, #36B8E9, #FF88B1,#36B8E9); background-size:100% 100%}
+body{background-position:center;background-repeat:no-repeat;min-height:100vh;font-family:'Roboto', sans-serif;}

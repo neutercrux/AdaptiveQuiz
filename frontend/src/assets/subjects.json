@@ -1,5 +1,5 @@
 [
-    {"name": "General Knowledge"},
-    {"name": "Entertainment"},
-    {"name": "Science"}
+    {"name": "General Knowledge", "img": "/assets/gk.jpg"},
+    {"name": "Entertainment", "img": "/assets/entertainment.jpg"},
+    {"name": "Science", "img": "/assets/science.jpg"}
 ]

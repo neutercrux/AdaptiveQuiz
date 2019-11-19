@@ -4,5 +4,5 @@ export interface IQuestion {
     difficulty : string,
     question: string,
     correct_answer : string,
-    incorrect_answer : Array<string>;
+    incorrect_answers : Array<string>;
 }

@@ -1,24 +1,20 @@
-<div style="margin-top: 10%;" class="row" *ngIf="available else result">
-    <div class="col-6 offset-md-3">
-        <div class="card border-dark">
+<body><div class="row" *ngIf="available else result">
+    <div style="margin-top: 10%;" class="col-6 offset-md-3">
+        <div class="card">
             <form>
-                <div class="card-header bg-dark text-white">
+                <div class="card-header">
                     {{questions[0].question}}
                 </div>
                 <div class="card-body">
-                    <div *ngFor="let ans of questions[0].incorrect_answers" class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" [value]="ans" [(ngModel)]='clicked'>
-                        <label class="form-check-label" for="exampleRadios2">
-                            {{ans}}
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" [value]="questions[0].correct_answer" [(ngModel)]='clicked'>
-                        <label class="form-check-label" for="exampleRadios2">
-                            {{questions[0].correct_answer}}
-                        </label>
-                    </div>
-                    <button style="margin-top: 15px;" type="submit" class="btn btn-primary" (click)="getNext()">Next</button>
+                    <label *ngFor="let ans of questions[0].incorrect_answers" class="container">{{ans}}
+                        <input type="radio" name="radio" [value]="ans" [(ngModel)]='clicked'>
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">{{questions[0].correct_answer}}
+                        <input type="radio" [value]="questions[0].correct_answer" [(ngModel)]='clicked' name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <button type="submit" class="btn submit" (click)="getNext()">Next</button>
                 </div>
             </form>
         </div>
@@ -26,5 +22,6 @@
 </div>
 
 <ng-template #result>
-    <button style="margin-top: 20%;margin-left: 40%;" type="button" class="btn btn-info" (click)="getResults(uname)">Get Results</button>
+    <button style="margin-top: 20%;margin-left: 40%;" type="button" class="btn btn-info btn-lg" (click)="getResults(uname)">Get Results</button>
 </ng-template>
+</body>
