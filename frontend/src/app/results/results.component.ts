@@ -19,7 +19,7 @@ export class ResultsComponent implements OnInit {
   constructor(private _resultService :ResultService,private _route: ActivatedRoute,private router: Router) { 
     setTimeout(() => {
       this.show = true;
-    }, 100000);
+    }, 10000);
   }
   
 

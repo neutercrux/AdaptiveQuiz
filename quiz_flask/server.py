@@ -158,7 +158,7 @@ def next():
     uname = sess['username']
     subject = sess['subject']
     table = mongo_db[subject]
-    if count<5:
+    if count<20:
         
         data = request.get_json()
         print(data)
@@ -220,6 +220,7 @@ def results(username):
             others_incorrect += i['incorrect']
     others_correct /= count
     others_incorrect /= count
+    print(others_correct,others_incorrect)
     correct_y.append(others_correct)
     incorrect_y.append(others_incorrect)
     print(correct_y)
@@ -268,11 +269,13 @@ def results(username):
         )
     )
     fig1 = go.Figure(data=go.Scatter(x=x, y=y,marker_color='rgba(255, 0, 0, .7)'),layout=layout,)
-    fig1.update_layout(xaxis_title='Questions',
+    fig1.update_layout(width=500,
+                      height=500,
+                    xaxis_title='Questions',
                    yaxis_title='Difficulty level')
     fig1.write_image("../frontend/src/assets/fig2.png")
     z = 0
-    while(z<1000000):
+    while(z<10000000):
         z += 1
     resp = [
         {'src' : 'assets/fig1.png'},

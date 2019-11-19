@@ -1,13 +1,17 @@
 
 <body>
-<div *ngIf="show else loading">
-    <div *ngFor="let graph of graphs">
-            <img [src]="graph.src">
+
+<a routerLink = "/login" class="btn btn-primary float-right">Logout</a>
+
+<div class="row" *ngIf="show else loading">
+    <div *ngFor="let graph of graphs" class="col-4 offset-md-1 text-center">
+            <img [src]="graph.src" class="img-fluid" height="450px" width="450px">
     </div>
 </div>
 
 <ng-template #loading>
-    <img src = "assets/loading.gif">
-    <img src = "assets/loading.gif">
+    <div class="row">
+        <img class="col-4 offset-md-5" src = "assets/loading.gif">
+    </div>
 </ng-template>
 </body>
